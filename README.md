@@ -1,2 +1,2 @@
-# sakura-calculator
+# Sakura Calculator
 Another webpage calculator

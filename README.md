@@ -6,6 +6,6 @@ A fancy little calculator on webpage
 
 ## Todos
 
-- [x] Basic UI setup
-- [ ] Update input area when presssing buttons
-- [ ] Basic math operation
+- [✔️] Basic UI setup
+- [❌] Update input area when presssing buttons
+- [❌] Basic math operation

@@ -1,4 +1,4 @@
-# Sakura Calculator
+# Sakura Calculator (unfinished)
 
 A fancy little calculator on webpage
 

@@ -7,5 +7,5 @@ A fancy little calculator on webpage
 ## Todos
 
 - [✔️] Basic UI setup
-- [❌] Update input area when presssing buttons
+- [✔️] Update input area when presssing buttons
 - [❌] Basic math operation

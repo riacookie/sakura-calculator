@@ -15,29 +15,31 @@
     
     <div class="calculator">
         <div class="display">
-            <input type="text">
+            <input id="input" type="text">
         </div>
-        <button class="span-two">AC</button>
-        <button>DEL</button>
-        <button>÷</button>
-        <button>1</button>
-        <button>2</button>
-        <button>3</button>
-        <button>*</button>
-        <button>4</button>
-        <button>5</button>
-        <button>6</button>
-        <button>+</button>
-        <button>7</button>
-        <button>8</button>
-        <button>9</button>
-        <button> - </button>
-        <button>.</button>
-        <button>0</button>
-        <button class="span-two"> = </button>
+        <button class="span-two func-btn">AC</button>
+        <button class="func-btn">DEL</button>
+        <button class="operator-btn">/</button>
+        <button class="digit">1</button>
+        <button class="digit">2</button>
+        <button class="digit">3</button>
+        <button class="operator-btn">*</button>
+        <button class="digit">4</button>
+        <button class="digit">5</button>
+        <button class="digit">6</button>
+        <button class="operator-btn">+</button>
+        <button class="digit">7</button>
+        <button class="digit">8</button>
+        <button class="digit">9</button>
+        <button class="operator-btn"> - </button>
+        <button class="operator-btn">.</button>
+        <button class="digit">0</button>
+        <button id="equal" class="span-two func-btn"> = </button>
     </div>
 
     <!-- JS files -->
-    <script src="scripts/parser.js"></script>
+    <script src="scripts/core.js"></script>
+    <script src="scripts/calculator.js"></script>
+    <script src="scripts/coreTest.js"></script>
 </body>
 </html>

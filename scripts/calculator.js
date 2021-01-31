@@ -4,17 +4,8 @@ const operatorButtons = document.querySelectorAll('.operator-btn');
 const equalButton = document.querySelector('#equal');
 const input = document.querySelector('#input');
 
-digitButtons.forEach((button) => {
-    button.addEventListener('click', () => {
-        input.value += button.innerText;
-    });
-});
-
-operatorButtons.forEach((button) => {
-    button.addEventListener('click', () => {
-        input.value += button.innerText;
-    });
-});
+digitButtons.forEach(buttonClickEvent);
+operatorButtons.forEach(buttonClickEvent);
 
 funcButtons.forEach((button) => {
     button.addEventListener('click', () => {
@@ -42,3 +33,9 @@ document.addEventListener('keypress', (e) => {
         equalButton.click();
     }
 });
+
+function buttonClickEvent(button) {
+    button.addEventListener('click', () => {
+        input.value += button.innerText;
+    });
+}

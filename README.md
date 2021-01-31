@@ -8,4 +8,4 @@ A fancy little calculator on webpage
 
 - [✔️] Basic UI setup
 - [✔️] Update input area when presssing buttons
-- [✔️] Basic math operations
+- [✔️] Basic math operation
